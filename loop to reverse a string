@@ -1,0 +1,12 @@
+# Prompt the user to enter a string
+original_string = input("Enter a string: ")
+
+# Initialize an empty string to store the reversed string
+reversed_string = ""
+
+# Loop through the original string backwards and add each character to the reversed string
+for i in range(len(original_string)-1, -1, -1):
+    reversed_string += original_string[i]
+
+# Print the reversed string
+print("The reversed string is:", reversed_string)
