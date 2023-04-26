@@ -1,0 +1,17 @@
+# initialize sum to 0
+sum = 0
+
+# loop until a negative integer is entered
+while True:
+    # prompt user for input
+    num = int(input("Enter a positive integer (or a negative integer to quit): "))
+
+    # check if input is negative
+    if num < 0:
+        break
+
+    # add input to sum
+    sum += num
+
+# display sum
+print("The sum of the positive integers entered is:", sum)
